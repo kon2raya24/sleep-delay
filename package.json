@@ -1,0 +1,39 @@
+{
+  "name": "sleep-delay",
+  "version": "1.0.0",
+  "description": "Async sleep and delay utilities for timing control",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "lint": "eslint src/"
+  },
+  "keywords": [
+    "sleep",
+    "delay",
+    "timeout",
+    "async",
+    "timing",
+    "typescript",
+    "utilities"
+  ],
+  "author": "kon2raya",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kon2raya24/sleep-delay.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "vitest": "^3.0.0"
+  }
+}
