@@ -20,3 +20,11 @@ npm install sleep-delay
 ## License
 
 MIT
+
+
+## Usage
+
+```typescript
+import { } from 'sleep-delay';
+// See API section for available functions
+```
